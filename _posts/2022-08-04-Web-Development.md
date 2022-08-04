@@ -3,4 +3,4 @@ layout: post
 title: Web Development
 author: Eric Chen
 ---
-Hello world!
+<p style = "color:red">Hello world!</p> 
