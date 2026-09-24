@@ -17,7 +17,7 @@ await writeFile(resolve(out, 'index.html'), layout({
   description: 'Eric Chen is an astrophysics student at UC Berkeley working across scientific machine learning, space instrumentation, and research software.',
   body: home(),
 }));
-for (const project of projects) {
+for (const project of projects.filter(project => !project.externalHref)) {
   const path = `/work/${project.slug}/`;
   const directory = resolve(out, 'work', project.slug);
   await mkdir(directory, { recursive: true });

@@ -66,3 +66,11 @@ Interfaces: `projectPage(project)` produces project body HTML for each content r
 - Task 1 complete: original assets copied, meaningful homepage built, localhost returned HTTP 200, preview opened in Codex. Server session 79900 remains running for review.
 - Task 2 complete: six generated HTML pages, all requested content and downloads, responsive styles, and source documentation. Added PUNCH as a separate selected-work entry per user steering.
 - Task 3 review: independent source review found no critical or important issues. Corrected intrinsic figure dimensions and body text sizes. Static checker passed for six pages, 131 references, and the 15-file public allowlist. No browser testing was requested; rendered appearance is left for user inspection. External links use verified supplied/profile/repository URLs; no external-availability claim is made.
+
+## Draft revision requested after inspection
+
+- Reorganized selected work into Research & space systems (Roman first, H I, Kp, PUNCH) and Industry software (Foxit). PUNCH uses the same card component and links straight to SolarResearch.
+- Replaced abstract project titles and surrounding slogan headings with technical subject names.
+- Added the user-requested original 10-slide Roman presentation from Downloads, without modifying it. Updated the output allowlist and PowerPoint link labels. This supersedes the earlier Roman-placeholder instruction for the local draft.
+- Changed Ericturnip/HIShells to public using GitHub settings after the user completed required passkey verification. GitHub displayed “This repository is currently public.” Removed private labels and linked both H I code repositories from the project page.
+- Kept production website deployment unchanged. The local draft remains the review surface.

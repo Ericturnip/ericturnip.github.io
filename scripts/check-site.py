@@ -76,6 +76,7 @@ allowed_files = {
     'images/eric-chen.jpg', 'images/hi-shell-predictions.png',
     'downloads/eric-chen-resume.pdf', 'downloads/hi-shell-detection-2026.pdf',
     'downloads/cospar-2026-kp-forecast.pdf', 'downloads/cospar-2026-solar-jets.pdf',
+    'downloads/roman-integrated-modeling-slides.pptx',
     'work/hi-shells/index.html', 'work/heliophysics/index.html',
     'work/roman/index.html', 'work/foxit/index.html',
 }
