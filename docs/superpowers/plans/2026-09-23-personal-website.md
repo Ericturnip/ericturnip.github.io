@@ -74,3 +74,12 @@ Interfaces: `projectPage(project)` produces project body HTML for each content r
 - Added the user-requested original 10-slide Roman presentation from Downloads, without modifying it. Updated the output allowlist and PowerPoint link labels. This supersedes the earlier Roman-placeholder instruction for the local draft.
 - Changed Ericturnip/HIShells to public using GitHub settings after the user completed required passkey verification. GitHub displayed “This repository is currently public.” Removed private labels and linked both H I code repositories from the project page.
 - Kept production website deployment unchanged. The local draft remains the review surface.
+
+## Personal details and repository revision
+
+- Made Berkeley junior / class of 2028 explicit, added instrumentation to the introduction and metadata, and simplified the experience heading and About copy.
+- Corrected the portrait caption to Building 29 at Goddard. Removed LIVE AI from site copy; the original résumé is unchanged.
+- Replaced all page email links with Gmail compose links. Kept the phone number out of page copy.
+- Removed the active HIShells repository from the site, retaining only the polished HIShell repository associated with the paper.
+- Created public Ericturnip/kp-index-forecasting and linked it from the homepage and heliophysics page. A 26-module source snapshot, original MIT license, README, requirements, and ignore rules are prepared in a separate workspace checkout. Automatic approval review blocked publishing the snapshot; approval remains pending. The original research checkout and its remote are unchanged.
+- Verification passed: six generated pages, 137 references, all 16 allowed output files, eight Gmail compose links with the correct recipient, removed-copy checks, and Kp links in both locations. The refreshed local homepage returns HTTP 200.

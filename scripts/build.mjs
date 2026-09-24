@@ -13,8 +13,8 @@ await mkdir(out, { recursive: true });
 await cp(resolve(root, 'public'), out, { recursive: true });
 await writeFile(resolve(out, '.nojekyll'), '');
 await writeFile(resolve(out, 'index.html'), layout({
-  title: 'Eric Chen — Astrophysics & Scientific Computing',
-  description: 'Eric Chen is an astrophysics student at UC Berkeley working across scientific machine learning, space instrumentation, and research software.',
+  title: 'Eric Chen | Astrophysics, Instrumentation & Scientific Computing',
+  description: 'Eric Chen is an astrophysics junior at UC Berkeley, Class of 2028, interested in instrumentation, scientific computing, and machine learning for astronomy.',
   body: home(),
 }));
 for (const project of projects.filter(project => !project.externalHref)) {

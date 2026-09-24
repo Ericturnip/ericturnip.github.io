@@ -1,6 +1,9 @@
+const email = 'beiyuanchen@gmail.com';
+
 export const profile = {
   name: 'Eric Chen',
-  email: 'beiyuanchen@gmail.com',
+  email,
+  gmailComposeUrl: `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(email)}`,
   github: 'https://github.com/Ericturnip',
   linkedin: 'https://www.linkedin.com/in/ericbturnip',
   resume: '/downloads/eric-chen-resume.pdf',
@@ -108,6 +111,6 @@ export const experience = [
 
 export const repositories = [
   { name: 'HIShell', href: 'https://github.com/Ericturnip/HIShell', description: 'H I shell detection & catalog analysis', private: false },
+  { name: 'kp-index-forecasting', href: 'https://github.com/Ericturnip/kp-index-forecasting', description: 'Kp estimation from solar-wind drivers', private: false },
   { name: 'SolarResearch', href: 'https://github.com/Ericturnip/SolarResearch', description: 'PUNCH data-processing pipeline', private: false },
-  { name: 'HIShells', href: 'https://github.com/Ericturnip/HIShells', description: 'H I shell detection in FITS data cubes', private: false },
 ];

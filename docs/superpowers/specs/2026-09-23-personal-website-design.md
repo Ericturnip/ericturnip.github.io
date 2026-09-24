@@ -78,12 +78,18 @@ Portrait source: `IMG_9560.jpg` on Desktop. Resume source: `Eric Chen Resume.pdf
 
 ## GitHub links
 
-Link every repository the authenticated account currently returned, as requested:
+Link the selected repositories, following the user's latest revision:
 
 - `https://github.com/Ericturnip/HIShell` — public H I shell research code.
 - `https://github.com/Ericturnip/SolarResearch` — public PUNCH data-processing code.
 - `https://github.com/Ericturnip/ericturnip.github.io` — public website source, best placed in the footer.
-- `https://github.com/Ericturnip/HIShells` — H I shell detection in FITS data cubes. Made public at the user’s explicit request; GitHub settings confirmed public after the user completed passkey verification. Link on the homepage and H I project page.
+- `https://github.com/Ericturnip/kp-index-forecasting` — newly created public Kp repository under Eric's account. The local research project has a different upstream; a selected source snapshot is prepared in a separate checkout. Upload of that snapshot awaits explicit approval after automatic review rejected the push.
+
+Do not link the active `HIShells` project; only `HIShell` accompanies the paper. The previous visibility change to `HIShells` remains in place, since the user asked to remove its website link, not change its visibility.
+
+## Personal introduction revision
+
+Show “UC Berkeley · Class of 2028” above the name and explicitly describe Eric as a junior. Use “Astrophysics, instrumentation, and scientific computing” as a two-line introduction. Caption the portrait “Outside Building 29 at Goddard Space Flight Center.” Do not claim a cleanroom size ranking. Use “Where I've worked” for experience. Remove LIVE AI and its attendance claim. Email links open browser-based Gmail compose windows; the address remains visible for copying. Do not add a phone number to page copy. The user-provided résumé PDF remains unchanged.
 
 Also link the GitHub profile for future projects. Do not add a backend or live API integration just to display repository links.
 

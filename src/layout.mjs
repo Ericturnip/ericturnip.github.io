@@ -30,8 +30,8 @@ export function layout({ title, description, body, path = '/' }) {
   </header>
   <main id="main">${body}</main>
   <footer class="site-footer wrap">
-    <div><a class="footer-name" href="/">Eric Chen</a><p>Astrophysics & scientific computing.</p></div>
-    <div class="footer-links"><a href="mailto:${profile.email}">Email</a><a href="${profile.linkedin}">LinkedIn</a><a href="https://github.com/Ericturnip/ericturnip.github.io">Site source</a></div>
+    <div><a class="footer-name" href="/">Eric Chen</a><p>Astrophysics · Instrumentation · Scientific computing</p></div>
+    <div class="footer-links"><a href="${escape(profile.gmailComposeUrl)}" target="_blank" rel="noopener noreferrer" aria-label="Compose email in Gmail, opens in a new tab">Email via Gmail</a><a href="${profile.linkedin}">LinkedIn</a><a href="https://github.com/Ericturnip/ericturnip.github.io">Site source</a></div>
     <p class="copyright">© 2026 Eric Chen</p>
   </footer>
 </body>
