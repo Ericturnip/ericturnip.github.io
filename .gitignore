@@ -30,6 +30,7 @@ jekyll-theme-type-on-strap.gemspec
 **/package-lock.json
 
 # Misc
+/dist/
 *-test.md
 *copy.md
 test/*

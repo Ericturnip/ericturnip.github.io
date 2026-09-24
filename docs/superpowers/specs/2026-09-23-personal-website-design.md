@@ -15,7 +15,7 @@ Navigation: Work, Experience, Research outputs, About, Resume. Use section links
 ## Homepage
 
 1. Name, UC Berkeley astrophysics affiliation, portrait, and a short introduction connecting scientific computing, machine learning, and space systems. Describe interests without implying that all incoming roles have started substantive research.
-2. Four selected project summaries: H I shell detection, Kp forecasting and heliophysics, Roman integrated modeling, and Foxit LLM integration. Link each to its project page.
+2. Four selected project summaries: H I shell detection, Kp forecasting and heliophysics, Roman integrated modeling, and Foxit LLM integration. Link each to its project page. Add a separate PUNCH data-processing entry beneath these projects, linking directly to `https://github.com/Ericturnip/SolarResearch`, as requested during draft implementation.
 3. Compact experience timeline: Berkeley Lab/Lazuli, SEB, NASA Goddard, UCSD research, Tsinghua research, and Foxit. Describe Lazuli as an upcoming research role with details to follow. SEB text: "Working on rotating a ground radio dish to track a rocket during launch and maintain the radio link." Do not claim flight validation or completed performance improvements.
 4. Research outputs: the two COSPAR abstracts, the June 23 H I paper, two AGU December 2026 submissions, and a Roman presentation entry with the plain text "Slides coming soon." Unavailable materials have no download links. The Roman entry has no clearance-process details.
 5. Brief About section with the UCSD-to-Berkeley path and hackathon organizing. Contact links and downloadable resume. No invented hobbies, career availability, or job-search claims.
@@ -109,4 +109,4 @@ Blog, contact form, analytics, login, content management system, fabricated demo
 
 ## Review status
 
-Content direction approved in conversation. This written design is ready for user review before implementation planning, per the brainstorming workflow.
+The user authorized building the first draft for inspection. The local draft implements this design; publication remains a later step.
