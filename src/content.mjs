@@ -62,7 +62,7 @@ export const outputs = [
   {
     type: 'Research paper', date: 'June 2026',
     title: 'The Sea Shells of the Universe: Automating H I Shell Detection',
-    authors: 'Eric Chen and Joseph Rodriguez · Equal contribution',
+    authors: 'Eric Chen and Joseph Rodriguez',
     status: 'UC San Diego course-project paper · Draft, June 23, 2026',
     href: '/downloads/hi-shell-detection-2026.pdf',
   },

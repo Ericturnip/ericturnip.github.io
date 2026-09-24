@@ -28,9 +28,9 @@ Each uses the same lightweight structure: question or engineering problem, Eric'
 
 Use this attribution:
 
-> I began this research during my internship at Tsinghua University, then extended it with Joseph Rodriguez for a data science course at UC San Diego.
+> I carried out most of this research during my internship at Tsinghua University, then continued it for a data science course at UC San Diego, where Joseph Rodriguez contributed to the project.
 
-The paper remains credited to Eric Chen and Joseph Rodriguez, including its equal-contribution designation. Do not infer individual task ownership beyond the user's clarification.
+The paper remains credited to Eric Chen and Joseph Rodriguez. Eric clarified that contributions were not equal and that he did most of the research. Remove equal-contribution claims from website copy; retain Joseph's co-authorship without inventing specific task ownership. The original paper PDF remains unchanged.
 
 Describe standardized position-velocity cuts from THINGS data, a U-Net candidate finder, sky-plane aggregation, and the study of catalog selection effects. Use one or two existing paper figures with captions retaining evaluation context. Link `HIShell` and the June 23, 2026 draft paper.
 
