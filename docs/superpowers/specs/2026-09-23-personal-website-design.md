@@ -83,7 +83,7 @@ Link the selected repositories, following the user's latest revision:
 - `https://github.com/Ericturnip/HIShell` — public H I shell research code.
 - `https://github.com/Ericturnip/SolarResearch` — public PUNCH data-processing code.
 - `https://github.com/Ericturnip/ericturnip.github.io` — public website source, best placed in the footer.
-- `https://github.com/Ericturnip/kp-index-forecasting` — newly created public Kp repository under Eric's account. The local research project has a different upstream; a selected source snapshot is prepared in a separate checkout. Upload of that snapshot awaits explicit approval after automatic review rejected the push.
+- `https://github.com/Ericturnip/kp-index-forecasting` — newly created public Kp repository under Eric's account. The local research project has a different upstream; a selected source snapshot is prepared in a separate checkout. The user explicitly approved publishing the prepared snapshot; commit 8406a4e is now published on main.
 
 Do not link the active `HIShells` project; only `HIShell` accompanies the paper. The previous visibility change to `HIShells` remains in place, since the user asked to remove its website link, not change its visibility.
 
