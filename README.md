@@ -2,7 +2,7 @@
 
 A static research and engineering portfolio for ericturnip.github.io.
 
-## Local draft
+## Local preview
 
 Build with Node.js 20 or later:
 
@@ -26,8 +26,8 @@ Open http://127.0.0.1:4173/. Rebuild after source edits, then refresh the page. 
 
 The builder publishes only the intended `public/` assets and generated HTML into `dist/`. The validation script checks every local reference, anchors, document landmarks, image attributes, and the full output-file allowlist.
 
-## Draft and publishing status
+## Publishing
 
-This branch is for local review. Nothing has been pushed or deployed. The legacy Jekyll source and workflows remain outside the generated output; before deploying the replacement, retire those theme files and configure GitHub Pages to publish `dist/`. The existing github.io address remains the production target.
+The public site is https://ericturnip.github.io/. GitHub Actions builds and validates the site on every push to `master`, then deploys only `dist/` to GitHub Pages. Repository Settings → Pages must use **GitHub Actions** as the source. The previous Jekyll theme and workflows are preserved in Git history.
 
-AGU entries are submissions, not accepted presentations. They have no abstract text yet. The H I paper retains its original authorship and equal-contribution note. HIShells was made public at the user’s request and its access-required label was removed. The full unmodified resume PDF contains the contact information supplied by Eric.
+AGU entries are submissions, not accepted presentations. They have no abstract text yet. The H I paper PDF remains unmodified; website copy reflects Eric's clarification that contributions were not equal. Only the polished HIShell repository is linked, along with Kp forecasting and PUNCH code. The unmodified résumé PDF contains the contact information supplied by Eric.
