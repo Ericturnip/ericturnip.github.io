@@ -22,9 +22,9 @@ Open http://127.0.0.1:4173/. Rebuild after source edits, then refresh the page. 
 - `src/layout.mjs`: shared navigation, footer, and page metadata.
 - `public/style.css`: responsive styles.
 - `public/downloads/`: the supplied PDFs and Roman internship PowerPoint presentation.
-- `public/images/`: supplied portrait and an original embedded figure from the H I paper.
+- `public/images/`: supplied portrait, an original embedded figure from the H I paper, and a 1200 × 627 share card made with the portrait and site typography.
 
-The builder publishes only the intended `public/` assets and generated HTML into `dist/`. The validation script checks every local reference, anchors, document landmarks, image attributes, and the full output-file allowlist.
+The builder publishes only the intended `public/` assets and generated HTML into `dist/`. The validation script checks every local reference, anchors, document landmarks, Open Graph metadata, image attributes, and the full output-file allowlist.
 
 ## Publishing
 

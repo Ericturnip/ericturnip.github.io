@@ -83,3 +83,8 @@ Interfaces: `projectPage(project)` produces project body HTML for each content r
 - Removed the active HIShells repository from the site, retaining only the polished HIShell repository associated with the paper.
 - Created public Ericturnip/kp-index-forecasting and linked it from the homepage and heliophysics page. A 26-module source snapshot, original MIT license, README, requirements, and ignore rules are prepared in a separate workspace checkout. After the user explicitly approved the prepared snapshot, commit 8406a4e was pushed to public main and verified against the remote ref. The original research checkout and its remote are unchanged.
 - Verification passed: six generated pages, 137 references, all 16 allowed output files, eight Gmail compose links with the correct recipient, removed-copy checks, and Kp links in both locations. The refreshed local homepage returns HTTP 200.
+
+## LinkedIn preview fix
+
+- The first live check found that the homepage lacked the Open Graph fields LinkedIn uses for previews. Added title, description, URL, image, dimensions, and alt text to every page, plus a large-card Twitter fallback.
+- Added a 1200 × 627 share card composed from the existing portrait and site typography; no generated artwork. Updated the output allowlist and Open Graph validation.

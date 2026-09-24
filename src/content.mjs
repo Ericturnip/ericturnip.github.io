@@ -7,6 +7,7 @@ export const profile = {
   github: 'https://github.com/Ericturnip',
   linkedin: 'https://www.linkedin.com/in/ericbturnip',
   resume: '/downloads/eric-chen-resume.pdf',
+  shareImage: 'https://ericturnip.github.io/images/link-preview.jpg',
 };
 
 export const projects = [

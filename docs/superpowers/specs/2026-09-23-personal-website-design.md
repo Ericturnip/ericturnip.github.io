@@ -76,6 +76,8 @@ The COSPAR abstract PDFs express presentation preferences, not proof of the fina
 
 Portrait source: `IMG_9560.jpg` on Desktop. Resume source: `Eric Chen Resume.pdf` on Desktop. Only intended site assets are copied into deployable output. The page contact area uses professional links and email, not street address or phone number. Extract LinkedIn from the resume's hyperlink annotations before including it; omit if no verified URL is available.
 
+Shared page metadata includes the Open Graph fields LinkedIn needs (`og:title`, `og:description`, `og:url`, and `og:image`). The 1200 × 627 share card uses the existing Building 29 portrait and site typography and palette; no generated artwork.
+
 ## GitHub links
 
 Link the selected repositories, following the user's latest revision:

@@ -3,6 +3,7 @@ import { profile } from './content.mjs';
 export const escape = (value) => String(value).replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
 export function layout({ title, description, body, path = '/' }) {
+  const pageUrl = new URL(path, 'https://ericturnip.github.io').href;
   return `<!doctype html>
 <html lang="en">
 <head>
@@ -11,7 +12,21 @@ export function layout({ title, description, body, path = '/' }) {
   <meta name="description" content="${escape(description)}">
   <meta name="theme-color" content="#fafbfc">
   <title>${escape(title)}</title>
-  <link rel="canonical" href="https://ericturnip.github.io${path}">
+  <link rel="canonical" href="${escape(pageUrl)}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Eric Chen">
+  <meta property="og:title" content="${escape(title)}">
+  <meta property="og:description" content="${escape(description)}">
+  <meta property="og:url" content="${escape(pageUrl)}">
+  <meta property="og:image" content="${escape(profile.shareImage)}">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="627">
+  <meta property="og:image:alt" content="Eric Chen, astrophysics junior at UC Berkeley, Class of 2028">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="${escape(title)}">
+  <meta name="twitter:description" content="${escape(description)}">
+  <meta name="twitter:image" content="${escape(profile.shareImage)}">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/style.css">
 </head>

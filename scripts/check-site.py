@@ -17,6 +17,7 @@ class Page(HTMLParser):
         self.main = 0
         self.title = 0
         self.description = 0
+        self.open_graph = {}
         self.problems = []
         self.feed(path.read_text())
 
@@ -28,6 +29,11 @@ class Page(HTMLParser):
         self.main += tag == 'main'
         self.title += tag == 'title'
         self.description += tag == 'meta' and attrs.get('name') == 'description' and bool(attrs.get('content'))
+        if tag == 'meta' and attrs.get('property', '').startswith('og:'):
+            property_name = attrs['property']
+            if property_name in self.open_graph:
+                self.problems.append(f'Duplicate Open Graph property: {property_name}')
+            self.open_graph[property_name] = attrs.get('content', '')
         if tag == 'img':
             if not attrs.get('alt'):
                 self.problems.append('Image is missing descriptive alt text')
@@ -50,6 +56,9 @@ for path, page in pages.items():
     duplicates = [id_ for id_, count in Counter(page.ids).items() if count > 1]
     if duplicates:
         page.problems.append(f'Duplicate IDs: {duplicates}')
+    for property_name in ('og:title', 'og:description', 'og:url', 'og:image'):
+        if not page.open_graph.get(property_name):
+            page.problems.append(f'Missing Open Graph property: {property_name}')
     for reference in page.references:
         url = urlsplit(reference)
         if url.scheme or url.netloc:
@@ -73,7 +82,7 @@ for path, page in pages.items():
 
 allowed_files = {
     '.nojekyll', 'index.html', '404.html', 'style.css', 'favicon.svg',
-    'images/eric-chen.jpg', 'images/hi-shell-predictions.png',
+    'images/eric-chen.jpg', 'images/hi-shell-predictions.png', 'images/link-preview.jpg',
     'downloads/eric-chen-resume.pdf', 'downloads/hi-shell-detection-2026.pdf',
     'downloads/cospar-2026-kp-forecast.pdf', 'downloads/cospar-2026-solar-jets.pdf',
     'downloads/roman-integrated-modeling-slides.pptx',
