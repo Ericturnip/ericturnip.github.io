@@ -16,3 +16,4 @@
 @media(max-width:430px){.site-header nav{font-size:13px;column-gap:15px}.site-header{gap:20px}.hero h1{font-size:68px}.hero-links{gap:19px}.experience-row{grid-template-columns:1fr;gap:8px}.experience-date{grid-row:auto}.experience-description{grid-column:1}.experience-organization h3{font-size:18px}.experience-description{margin-top:4px}.next-project{align-items:start;flex-direction:column;gap:12px}.project-intro{font-size:17px}.hero-eyebrow{font-size:12px;letter-spacing:.08em}}
 
 .industry-group{margin-top:48px}.industry-grid{grid-template-columns:1fr}.industry-grid .project-card h3{max-width:none}.industry-grid .project-description{max-width:780px}.industry-grid .project-affiliation{margin-bottom:20px}.project-card h3{font-size:28px;max-width:none;overflow-wrap:break-word}.project-header h1{overflow-wrap:break-word}
+.section-heading>.work-kicker{white-space:nowrap;font-size:clamp(11px,1.55vw,14px)}

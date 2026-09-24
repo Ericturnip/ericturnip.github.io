@@ -25,7 +25,7 @@ export function home() {
     <figure class="portrait"><img src="/images/eric-chen.jpg" alt="Eric Chen outside Building 29 at NASA Goddard Space Flight Center" width="4284" height="5712" fetchpriority="high"><figcaption>Outside Building 29 at Goddard Space Flight Center.</figcaption></figure>
   </section>
   <section id="work" class="work-section section wrap" aria-labelledby="work-title">
-    <div class="section-heading"><div><p class="eyebrow">SELECTED WORK</p><h2 id="work-title">Research & space systems</h2></div><p>Integrated modeling, scientific ML,<br>and heliophysics.</p></div>
+    <div class="section-heading"><div><p class="eyebrow">SELECTED WORK</p><h2 id="work-title">Research & space systems</h2></div><p class="work-kicker">Integrated modeling, scientific ML, and heliophysics.</p></div>
     <div class="project-grid">${projectCards('research')}</div>
     <div class="industry-group" aria-labelledby="industry-title"><div class="section-heading"><div><p class="eyebrow">INDUSTRY EXPERIENCE</p><h2 id="industry-title">Industry software</h2></div></div><div class="project-grid industry-grid">${projectCards('industry')}</div></div>
   </section>
