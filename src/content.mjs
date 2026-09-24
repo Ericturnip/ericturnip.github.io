@@ -104,7 +104,7 @@ export const experience = [
   { date: 'Upcoming', organization: 'Lawrence Berkeley Lab', team: 'Lazuli Space Observatory', role: 'Research', description: 'Space telescope research. More details to come.', state: 'Incoming' },
   { date: 'Sep 2026–present', organization: 'Space Enterprise at Berkeley', team: '', role: 'Tracking & Controls Engineer', description: 'Working on rotating a ground radio dish to track a rocket during launch and maintain the radio link.', state: 'In progress' },
   { date: 'Jun–Aug 2026', organization: 'NASA Goddard', team: 'Roman Space Telescope', role: 'Integrated Modeling Intern', description: 'Simulation monitoring, structural dynamics, and jitter analysis for telescope modeling workflows.', href: '/work/roman/' },
-  { date: 'Oct 2025–present', organization: 'UC San Diego', team: 'Astrophysics research', role: 'Researcher', description: 'Geomagnetic forecasting, solar-wind research, and scientific data pipelines.', href: '/work/heliophysics/' },
+  { date: 'Oct 2025–present', organization: 'UC San Diego', team: 'Astrophysics research', role: 'Researcher', description: 'Geomagnetic forecasting, solar-wind research, and scientific data pipelines.', state: 'In progress', href: '/work/heliophysics/' },
   { date: 'Jun–Sep 2025', organization: 'Tsinghua University', team: 'Astrophysics research', role: 'Research Intern', description: 'Began the H I shell detection project, developing a machine-learning pipeline for radio astronomy data.', href: '/work/hi-shells/' },
   { date: 'Jun–Sep 2025', organization: 'Foxit Software', team: '', role: 'LLM Integration Intern', description: 'Connected language models with APIs and evaluated multistep tool workflows.', href: '/work/foxit/' },
 ];
