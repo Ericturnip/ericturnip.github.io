@@ -4,7 +4,7 @@
 
 Rebuild the existing `Ericturnip/ericturnip.github.io` website from scratch for research collaborators and industry employers. Graduate admissions are not the current target. Preserve the GitHub Pages address and repository history. The first version should make Eric's contributions, scientific interests, engineering experience, and available work easy to assess.
 
-The user approved the research-and-engineering portfolio direction, authorized linking all GitHub repositories, requested a portrait, and identified two COSPAR abstracts and the H I shell paper as presentable materials. Roman slides must remain a placeholder until NASA returns a cleared version. New roles should have minimal descriptions; SEB has a concrete antenna-tracking project.
+The user approved the research-and-engineering portfolio direction, authorized linking all GitHub repositories, requested a portrait, and identified two COSPAR abstracts and the H I shell paper as presentable materials. The user also supplied metadata for two AGU December 2026 abstract submissions; their text is not yet available. Roman slides must remain a placeholder until NASA returns a cleared version. New roles should have minimal descriptions; SEB has a concrete antenna-tracking project.
 
 ## Experience and visual design
 
@@ -17,7 +17,7 @@ Navigation: Work, Experience, Research outputs, About, Resume. Use section links
 1. Name, UC Berkeley astrophysics affiliation, portrait, and a short introduction connecting scientific computing, machine learning, and space systems. Describe interests without implying that all incoming roles have started substantive research.
 2. Four selected project summaries: H I shell detection, Kp forecasting and heliophysics, Roman integrated modeling, and Foxit LLM integration. Link each to its project page.
 3. Compact experience timeline: Berkeley Lab/Lazuli, SEB, NASA Goddard, UCSD research, Tsinghua research, and Foxit. Describe Lazuli as an upcoming research role with details to follow. SEB text: "Working on rotating a ground radio dish to track a rocket during launch and maintain the radio link." Do not claim flight validation or completed performance improvements.
-4. Research outputs: the two COSPAR abstracts, the June 23 H I paper, and a Roman presentation entry with the plain text "Slides coming soon." The placeholder has no download link and no clearance-process details.
+4. Research outputs: the two COSPAR abstracts, the June 23 H I paper, two AGU December 2026 submissions, and a Roman presentation entry with the plain text "Slides coming soon." Unavailable materials have no download links. The Roman entry has no clearance-process details.
 5. Brief About section with the UCSD-to-Berkeley path and hackathon organizing. Contact links and downloadable resume. No invented hobbies, career availability, or job-search claims.
 
 ## Project pages
@@ -61,7 +61,18 @@ Use a "Research outputs" heading instead of implying all materials are peer-revi
 | The Sea Shells of the Universe: Automating H I Shell Detection | `The_Sea_Shells_of_the_Universe__Automating_Shell_Detection__5_ (1).pdf` in Downloads | Research/course-project paper, draft dated June 23, 2026 |
 | Roman presentation | No public source yet | Slides coming soon |
 
-The abstract PDFs express presentation preferences, not proof of the final presentation format. Do not claim Eric delivered an oral talk or poster. Preserve the original PDFs without changing authorship or scientific content.
+### AGU December 2026 submissions
+
+Use the following exact titles and submission IDs supplied by the user:
+
+| Submission ID | Title | First author |
+| --- | --- | --- |
+| 2095467 | Interplanetary Scintillation Data and Thomson Scattering Forecasts of Transient Solar Wind Structures | Bernard Jackson |
+| 2095723 | Solar Jets Viewed in Parker WISPR Data and Their Contribution to the Composition of the Solar Wind | Unity Listiak |
+
+Label both "AGU, December 2026 · Submitted; abstract text forthcoming." These are submissions, not confirmed accepted presentations or publications. Display the supplied first author as "First author" rather than inventing the complete author list, Eric's author position, presentation format, or results. Retain the submission IDs as secondary metadata. Do not create an abstract summary from the title or reuse COSPAR text as AGU text. Do not invent program URLs, DOI links, or PDF download buttons. The user supplied first-author emails for reference; the public entries need only names, not those contact addresses.
+
+The COSPAR abstract PDFs express presentation preferences, not proof of the final presentation format. Do not claim Eric delivered an oral talk or poster. Preserve the original PDFs without changing authorship or scientific content.
 
 Portrait source: `IMG_9560.jpg` on Desktop. Resume source: `Eric Chen Resume.pdf` on Desktop. Only intended site assets are copied into deployable output. The page contact area uses professional links and email, not street address or phone number. Extract LinkedIn from the resume's hyperlink annotations before including it; omit if no verified URL is available.
 
