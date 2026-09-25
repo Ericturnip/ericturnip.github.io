@@ -8,6 +8,7 @@ export const profile = {
   linkedin: 'https://www.linkedin.com/in/ericbturnip',
   resume: '/downloads/eric-chen-resume.pdf',
   shareImage: 'https://ericturnip.github.io/images/link-preview.jpg',
+  goatCounterEndpoint: '',
 };
 
 export const projects = [

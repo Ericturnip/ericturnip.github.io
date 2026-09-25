@@ -2,8 +2,11 @@ import { profile } from './content.mjs';
 
 export const escape = (value) => String(value).replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
-export function layout({ title, description, body, path = '/' }) {
+export function layout({ title, description, body, path = '/', goatCounterEndpoint = profile.goatCounterEndpoint }) {
   const pageUrl = new URL(path, 'https://ericturnip.github.io').href;
+  const analyticsScript = goatCounterEndpoint
+    ? `  <script data-goatcounter="${escape(goatCounterEndpoint)}" async src="https://gc.zgo.at/count.js"></script>\n`
+    : '';
   return `<!doctype html>
 <html lang="en">
 <head>
@@ -29,7 +32,7 @@ export function layout({ title, description, body, path = '/' }) {
   <meta name="twitter:image" content="${escape(profile.shareImage)}">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/style.css">
-</head>
+${analyticsScript}</head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
   <div class="top-line"></div>

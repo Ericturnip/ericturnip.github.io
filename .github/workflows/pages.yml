@@ -22,6 +22,8 @@ jobs:
           node-version: '22'
       - name: Build website
         run: node scripts/build.mjs
+      - name: Check optional GoatCounter integration
+        run: node scripts/test-analytics.mjs
       - name: Validate pages and public assets
         run: python3 scripts/check-site.py
       - uses: actions/upload-pages-artifact@v4
