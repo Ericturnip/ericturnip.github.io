@@ -103,8 +103,8 @@ export const outputs = [
 ];
 
 export const experience = [
-  { date: '2026–present', organization: 'Lawrence Berkeley Lab', team: 'Lazuli Space Observatory', role: 'Undergraduate Researcher', description: 'Space telescope research. More details to come.', state: 'In progress' },
-  { date: 'Sep 2026–present', organization: 'UC Berkeley', team: 'UltraViolet EXplorer (UVEX)', role: 'Researcher', description: 'Mapping UV transient duration–luminosity phase space from literature data to identify underexplored discovery regions for UVEX.', state: 'In progress' },
+  { date: 'Sep 2026–present', organization: 'Lawrence Berkeley Lab', team: 'Lazuli Space Observatory', role: 'Undergraduate Researcher', description: 'Space telescope research. More details to come.', state: 'In progress' },
+  { date: 'Sep 2026–present', organization: 'UC Berkeley', team: 'UltraViolet EXplorer (UVEX)', role: 'Undergraduate Researcher', description: 'Mapping UV transient duration–luminosity phase space from literature data to identify underexplored discovery regions for UVEX.', state: 'In progress' },
   { date: 'Sep 2026–present', organization: 'Space Enterprise at Berkeley', team: '', role: 'Tracking & Controls Engineer', description: 'Working on rotating a ground radio dish to track a rocket during launch and maintain the radio link.', state: 'In progress' },
   { date: 'Jun–Aug 2026', organization: 'NASA Goddard', team: 'Roman Space Telescope', role: 'Integrated Modeling Intern', description: 'Simulation monitoring, structural dynamics, and jitter analysis for telescope modeling workflows.', href: '/work/roman/' },
   { date: 'Oct 2025–present', organization: 'UC San Diego', team: 'Astrophysics research', role: 'Undergraduate Researcher', description: 'Geomagnetic forecasting, solar-wind research, and scientific data pipelines.', state: 'In progress', href: '/work/heliophysics/' },
