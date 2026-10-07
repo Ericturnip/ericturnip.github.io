@@ -24,6 +24,8 @@ jobs:
         run: node scripts/build.mjs
       - name: Check optional GoatCounter integration
         run: node scripts/test-analytics.mjs
+      - name: Check current research experience
+        run: node scripts/test-experience.mjs
       - name: Validate pages and public assets
         run: python3 scripts/check-site.py
       - uses: actions/upload-pages-artifact@v4
