@@ -32,6 +32,6 @@ await writeFile(resolve(out, '404.html'), layout({
   title: 'Page not found — Eric Chen',
   description: 'Return to Eric Chen’s research and engineering portfolio.',
   path: '/404.html',
-  body: '<section class="wrap not-found"><p class="eyebrow">404 · PAGE NOT FOUND</p><h1>A different direction.</h1><p>This page isn’t here. You can find my projects and research on the homepage.</p><a class="primary-link" href="/">Back to the homepage</a></section>',
+  body: '<section class="wrap not-found"><p class="eyebrow">404 · PAGE NOT FOUND</p><h1>A different direction.</h1><p>This page isn’t here. You can find my projects and research on the homepage.</p><a class="primary-link" href="/" target="_blank" rel="noopener noreferrer">Back to the homepage</a></section>',
 }));
 console.log(`Built 6 HTML pages and supplied assets at ${out}`);

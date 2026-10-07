@@ -26,6 +26,8 @@ jobs:
         run: node scripts/test-analytics.mjs
       - name: Check current research experience
         run: node scripts/test-experience.mjs
+      - name: Check new-tab button behavior
+        run: node scripts/test-new-tab-buttons.mjs
       - name: Validate pages and public assets
         run: python3 scripts/check-site.py
       - uses: actions/upload-pages-artifact@v4

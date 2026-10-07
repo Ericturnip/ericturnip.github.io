@@ -1,7 +1,7 @@
 import { escape } from './layout.mjs';
 import { projects, outputs } from './content.mjs';
 
-const material = (href, label) => `<a class="material-link" href="${href}">${label}<span aria-hidden="true">↗</span></a>`;
+const material = (href, label) => `<a class="material-link" href="${href}" target="_blank" rel="noopener noreferrer" aria-label="${label}, opens in a new tab">${label}<span aria-hidden="true">↗</span></a>`;
 const section = (title, content) => `<section class="project-section"><h2>${title}</h2>${content}</section>`;
 
 const stories = {
@@ -33,7 +33,7 @@ const stories = {
     body: section('Structural, thermal & optical performance modeling', `<p>Telescope performance depends on more than the optics alone. Structural motion, thermal effects, and vibration can affect the measurements an observatory makes.</p><p>During my internship with the Roman Space Telescope team at NASA Goddard, I worked on integrated modeling workflows involving structural dynamics and jitter analysis.</p>`)
       + section('Real-time STOP pipeline log streaming', `<p>I implemented real-time log streaming for the Structural, Thermal, and Optical Performance (STOP) pipeline, enabling continuous remote monitoring of simulation progress.</p><p>This work made long-running simulations easier to follow as they ran, bringing their progress into view without waiting for the complete run to finish.</p>`)
       + section('JittTool refactoring & frequency-response interpolation', `<p>I refactored a monolithic MATLAB analysis script into a standalone function with explicit inputs and analysis-specific error handling.</p><p>To reduce repeated matrix solves, I changed the calculation order: precompute the structural frequency response on a frequency grid, then interpolate it at disturbance frequencies for the sampled reaction-wheel speeds. The presentation reports approximately 2× faster analysis with about 1% error compared with the original method.</p>`)
-      + section('Presentation', `<div class="presentation-material"><span class="eyebrow">SUMMER 2026 INTERNSHIP</span><h3>STOP Pipeline and Jitter Analysis</h3><p>The slides cover distributed simulation log streaming, the JittTool refactor, and frequency-response precomputation.</p><p><a class="text-link" href="/downloads/roman-integrated-modeling-slides.pptx">Download presentation · PPTX <span aria-hidden="true">↗</span></a></p></div>`),
+      + section('Presentation', `<div class="presentation-material"><span class="eyebrow">SUMMER 2026 INTERNSHIP</span><h3>STOP Pipeline and Jitter Analysis</h3><p>The slides cover distributed simulation log streaming, the JittTool refactor, and frequency-response precomputation.</p><p><a class="text-link" href="/downloads/roman-integrated-modeling-slides.pptx" target="_blank" rel="noopener noreferrer" aria-label="Download presentation, opens in a new tab">Download presentation · PPTX <span aria-hidden="true">↗</span></a></p></div>`),
     resources: material('/downloads/roman-integrated-modeling-slides.pptx', 'Presentation · PowerPoint') + material('/downloads/eric-chen-resume.pdf', 'Experience summary · Résumé PDF'),
     note: 'Summer 2026 internship presentation',
   },

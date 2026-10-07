@@ -43,7 +43,7 @@ ${analyticsScript}</head>
       <a href="/#experience">Experience</a>
       <a href="/#outputs">Research outputs</a>
       <a href="/#about">About</a>
-      <a class="nav-resume" href="${profile.resume}">Résumé <span aria-hidden="true">↗</span></a>
+      <a class="nav-resume" href="${profile.resume}" target="_blank" rel="noopener noreferrer" aria-label="Résumé, opens in a new tab">Résumé <span aria-hidden="true">↗</span></a>
     </nav>
   </header>
   <main id="main">${body}</main>

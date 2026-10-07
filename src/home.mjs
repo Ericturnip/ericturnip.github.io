@@ -19,7 +19,7 @@ export function home() {
       <h1 id="intro-title">Eric Chen<span class="blue">.</span></h1>
       <p class="hero-lead">Astrophysics, instrumentation,<br>and scientific computing.</p>
       <p class="hero-description">I’m a junior studying astrophysics at UC Berkeley. I work on telescope integrated modeling, machine learning for astronomical data, geomagnetic forecasting, and LLM tool integration.</p>
-      <div class="hero-links"><a class="primary-link" href="#work">Explore my work <span aria-hidden="true">↓</span></a><a class="text-link" href="${escape(profile.gmailComposeUrl)}" target="_blank" rel="noopener noreferrer" aria-label="Compose email in Gmail, opens in a new tab">Email via Gmail <span aria-hidden="true">↗</span></a></div>
+      <div class="hero-links"><a class="primary-link" href="#work" target="_blank" rel="noopener noreferrer" aria-label="Explore my work, opens in a new tab">Explore my work <span aria-hidden="true">↓</span></a><a class="text-link" href="${escape(profile.gmailComposeUrl)}" target="_blank" rel="noopener noreferrer" aria-label="Compose email in Gmail, opens in a new tab">Email via Gmail <span aria-hidden="true">↗</span></a></div>
       <p class="location">Berkeley, California</p>
     </div>
     <figure class="portrait"><img src="/images/eric-chen.jpg" alt="Eric Chen outside Building 29 at NASA Goddard Space Flight Center" width="4284" height="5712" fetchpriority="high"><figcaption>Outside Building 29 at Goddard Space Flight Center.</figcaption></figure>
@@ -30,7 +30,7 @@ export function home() {
     <div class="industry-group" aria-labelledby="industry-title"><div class="section-heading"><div><p class="eyebrow">INDUSTRY EXPERIENCE</p><h2 id="industry-title">Industry software</h2></div></div><div class="project-grid industry-grid">${projectCards('industry')}</div></div>
   </section>
   <section id="experience" class="section wrap" aria-labelledby="experience-title">
-    <div class="section-heading"><div><p class="eyebrow">EXPERIENCE</p><h2 id="experience-title">Where I’ve worked</h2></div><a class="text-link" href="${profile.resume}">Full résumé <span aria-hidden="true">↗</span></a></div>
+    <div class="section-heading"><div><p class="eyebrow">EXPERIENCE</p><h2 id="experience-title">Where I’ve worked</h2></div><a class="text-link" href="${profile.resume}" target="_blank" rel="noopener noreferrer" aria-label="Full résumé, opens in a new tab">Full résumé <span aria-hidden="true">↗</span></a></div>
     <div class="experience-list">${experience.map(e=>`<article class="experience-row">
       <p class="experience-date">${e.date}</p>
       <div class="experience-organization"><h3>${e.href ? `<a href="${e.href}">${escape(e.organization)}</a>` : escape(e.organization)}</h3>${e.team?`<p>${escape(e.team)}</p>`:''}${e.state?`<span class="state-label">${e.state}</span>`:''}</div>
@@ -42,7 +42,7 @@ export function home() {
     <div class="output-list">${outputs.map(o=>`<article class="output-row">
       <div class="output-type"><span>${escape(o.type)}</span><p>${escape(o.date)}</p></div>
       <div class="output-content"><h3>${o.href?`<a href="${o.href}">${escape(o.title)}</a>`:escape(o.title)}</h3><p class="output-authors">${escape(o.authors)}</p><p class="output-status">${escape(o.status)}</p></div>
-      <div class="output-action">${o.href?`<a class="pdf-link" href="${o.href}" aria-label="${o.format === 'PPTX' ? 'Download PowerPoint' : 'Read PDF'}: ${escape(o.title)}">${o.format || 'PDF'} <span aria-hidden="true">↗</span></a>`:'<span class="no-file">Forthcoming</span>'}</div>
+      <div class="output-action">${o.href?`<a class="pdf-link" href="${o.href}" target="_blank" rel="noopener noreferrer" aria-label="${o.format === 'PPTX' ? 'Download PowerPoint' : 'Read PDF'}: ${escape(o.title)}, opens in a new tab">${o.format || 'PDF'} <span aria-hidden="true">↗</span></a>`:'<span class="no-file">Forthcoming</span>'}</div>
     </article>`).join('')}</div>
   </section>
   <section id="about" class="section wrap about-section" aria-labelledby="about-title">
